@@ -2,6 +2,10 @@
 
 Este projeto foi desenvolvido nos cursos da formação ["A partir do zero: HTML e CSS para projetos web"](https://www.alura.com.br/formacao-html-css)
 
+## Referência
+
+- [HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags)
+
 ## Documentação
 
 [Figma](https://www.figma.com/file/4EKKCbr5rS93RWP7kRjXIz/Portfolio---Curso-1?type=design&node-id=0%3A1&mode=dev)
