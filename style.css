@@ -8,7 +8,8 @@
 body {
   height: 100vh;
   box-sizing: border-box;
-  background-color: #97b1a6;
+  /* background-color: #97b1a6; */
+  background-image: linear-gradient(to bottom right, #fff, #97b1a6, #407076);
   color: #06070e;
 }
 
@@ -56,7 +57,10 @@ body {
 
 .apresentacao__links__link {
   /* background-color: #e2b9b7; */
-  border: 2px solid #e2b9b7;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid #06070e;
   width: 378px;
   text-align: center;
   border-radius: 8px;
@@ -70,7 +74,9 @@ body {
   transition: 0.5s;
 }
 .apresentacao__links__link:hover {
-  background-color: #407076;
-  color: #fff;
+  /* background-color: #e2b9b7; */
+  background-image: linear-gradient(#ded5d4, #e2b9b7);
+  width: 400px;
+  /* color: #fff; */
   transition: 0.5s;
 }
