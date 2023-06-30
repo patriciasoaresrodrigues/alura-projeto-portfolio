@@ -42,14 +42,24 @@ body {
 
 .apresentacao__links {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+  font-family: 'krona One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .apresentacao__links__link {
-  background-color: #e2b9b7;
-  width: 280px;
+  /* background-color: #e2b9b7; */
+  border: 2px solid #e2b9b7;
+  width: 378px;
   text-align: center;
-  border-radius: 16px;
+  border-radius: 8px;
   font-size: 24px;
   font-weight: 600;
   padding: 21.5px 0;
