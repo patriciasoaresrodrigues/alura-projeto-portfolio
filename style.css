@@ -9,6 +9,8 @@ body {
   height: 100vh;
   box-sizing: border-box;
   /* background-color: #97b1a6; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-image: linear-gradient(to bottom right, #fff, #97b1a6, #407076);
   color: #06070e;
 }
