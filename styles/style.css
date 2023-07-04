@@ -2,24 +2,25 @@
 
 :root {
   --cor-primaria: #407076;
-  --cor-secundaria: #e2b9b7;
-  --cor-terciaria: #97b1a6;
-  --cor-black: #06070e;
+  --cor-primaria-gradiente: #fff, #97b1a6, #407076;
+  --cor-secundaria: #E2B9B7;
+  --cor-secundaria-gradiente: #ded5d4, #e2b9b7;
+  --cor-text-black: #06070e;
+  --cor-tex-white: #fff;
 }
 
 * {
-  margin: 0;
+  margin: 0;  
   padding: 0;
 }
 
 body {
   /* height: 100vh; */
   box-sizing: border-box;
-  /* background-color: #97b1a6; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom right, #fff, #97b1a6, #407076);
-  color: #06070e;
+  background-image: linear-gradient(to bottom right, var(--cor-primaria-gradiente) );
+  color: var(--cor-text-black);
 }
 
 .cabecalho {
@@ -35,7 +36,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #407076;
+  color: var(--cor-primaria)
   text-decoration: none;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .titulo-destaque {
-  color: #407076;
+  color: var(--cor-primaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -82,11 +83,10 @@ body {
 }
 
 .apresentacao__links__link {
-  /* background-color: #e2b9b7; */
   display: flex;
   justify-content: center;
   gap: 16px;
-  border: 2px solid #06070e;
+  border: 2px solid var(--cor-text-black);
   width: 378px;
   text-align: center;
   border-radius: 8px;
@@ -94,14 +94,13 @@ body {
   font-weight: 600;
   padding: 21.5px 0;
   text-decoration: none;
-  color: #06070e;
+  color: var(--cor-text-black);
   font-family: 'Montserrat', sans-serif;
   box-shadow: 4px 8px grey;
   transition: 0.5s;
 }
 .apresentacao__links__link:hover {
-  /* background-color: #e2b9b7; */
-  background-image: linear-gradient(#ded5d4, #e2b9b7);
+  background-image: linear-gradient(var(--cor-secundaria-gradiente));
   width: 400px;
   /* color: #fff; */
   transition: 0.5s;
@@ -109,8 +108,8 @@ body {
 
 .rodape {
   padding: 24px;
-  color: #fff;
-  background-color: #407076;
+  color: var(--cor-tex-white);
+  background-color: var(--cor-primaria);
   box-shadow: 0px 0px 30px 3px grey;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
