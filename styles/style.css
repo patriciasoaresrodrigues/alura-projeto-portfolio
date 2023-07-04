@@ -23,6 +23,7 @@ body {
   background-image: linear-gradient(
     to bottom right,
     var(--cor-white),
+    var(--cor-white),
     var(--cor-ternaria),
     var(--cor-primaria)
   );
@@ -106,7 +107,11 @@ body {
   transition: 0.5s;
 }
 .apresentacao__links__link:hover {
-  background-image: linear-gradient(var(--cor-white), var(--cor-secundaria));
+  background-image: linear-gradient(
+    to bottom right,
+    var(--cor-white),
+    var(--cor-secundaria)
+  );
   width: 400px;
   transition: 0.5s;
 }
