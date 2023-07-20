@@ -176,6 +176,7 @@ body {
   .apresentacao {
     flex-direction: column-reverse;
     padding: 5%;
+    text-align: center;
   }
   .apresentacao__conteudo {
     width: auto;
