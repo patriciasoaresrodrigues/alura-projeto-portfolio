@@ -10,6 +10,8 @@ Este projeto foi desenvolvido nos cursos da formação ["A partir do zero: HTML 
 
 - [HTML e CSS: cabeçalho, footer e variáveis CSS](https://www.alura.com.br/curso-online-html-css-cabecalho-footer-variaveis-css)
 
+- [HTML e CSS: trabalhando com responsividade e publicação de projetos](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos)
+
 ## Documentação
 
 [Figma](https://www.figma.com/file/4EKKCbr5rS93RWP7kRjXIz/Portfolio---Curso-1?type=design&node-id=0%3A1&mode=dev)
