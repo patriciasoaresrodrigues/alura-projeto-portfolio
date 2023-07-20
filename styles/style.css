@@ -180,4 +180,13 @@ body {
   .apresentacao__conteudo {
     width: auto;
   }
+  .apresentacao__links__navegacao {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cabecalho__menu {
+    gap: 20px;
+  }
 }
