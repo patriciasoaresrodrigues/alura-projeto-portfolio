@@ -36,7 +36,7 @@ body {
 
 .cabecalho__menu {
   display: flex;
-  gap: 50px;
+  gap: 80px;
 }
 
 .cabecalho__menu__link {
@@ -48,8 +48,8 @@ body {
 }
 
 .cabecalho__menu__link_selecionado {
-  /* text-decoration: underline solid 1px; */
   font-weight: 600;
+  color: var(--cor-secundaria);
 }
 
 .apresentacao {
@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 1200px) {
   .cabecalho {
-    padding: 10%;
+    padding: 10% 20%;
   }
   .apresentacao__imagem {
     width: 40%;
@@ -169,6 +169,8 @@ body {
 
   .cabecalho__menu {
     justify-content: center;
+    text-align: center;
+    gap: 50px;
   }
 
   .apresentacao {
